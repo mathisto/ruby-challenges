@@ -7,18 +7,8 @@ Write a method named `users` that takes a single optional argument and makes a H
 ### Task 2 - Basic Cryptography
 A string has been passed through three separate encryptions in the following order: Original -> Base64 -> AES-256 -> Modified Polybius -> Final. Write a method that takes this triple encoded string `mystery_string = "OXbVgH7UriGqmRZcqOXUOvJt8Q4JKn5MwD1XP8bg9yHwhssYAKfWE+AMpr25HruA"` and fully unencrypts it to its original state. The method should output the fully decoded string to the console. Add the answer as a commented line at the end of your file. 
 
-The modified 8x8 polybius key matrix is as follows:
-```
-   A B C D E F G H
-A| p h q g m + J L
-B| e a y l n 1 W X
-C| o - d x k 2 Y =
-D| r c v s z 3 f _
-E| w b u t i 4 S Z
-F| 5 6 7 8 9 0 N T
-G| A B C E F G H I
-H| K M O P Q R U V
-```
+The, modified 8x8, concatenated polybius key matrix is as follows:
+`phqgm+JLeayln1WXo-dxk2Y=rcvsz3f_wbuti4SZ567890NTABCEFGHIKMOPQRUV`
 
 ### Task 3 - Unorthodox/Impossible method creation (Advanced level)
 Create a method called `ultimate.answer` which takes no arguments. The method should simply return the number `42`. Invoke your method and have it print the result to console.
