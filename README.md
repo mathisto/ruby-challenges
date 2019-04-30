@@ -13,7 +13,7 @@ The, modified 8x8, polybius key matrix is as follows:
 A| p h q g m + J L
 B| e a y l n 1 W X
 C| o - d x k 2 Y =
-D| r c v s z 3 f _
+D| r c v s z 3 f D
 E| w b u t i 4 S Z
 F| 5 6 7 8 9 0 N T
 G| A B C E F G H I
